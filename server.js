@@ -17,7 +17,7 @@ const client = new tmi.Client({
     },
     identity: {
         username: process.env.TWITCH_USERNAME,
-        password: process.emv.TWITCH_OAUTH_TOKEN
+        password: process.env.TWITCH_OAUTH_TOKEN
     },
     channels: [process.env.TWITCH_USERNAME]
 });
