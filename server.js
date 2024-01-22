@@ -16,10 +16,10 @@ const client = new tmi.Client({
         reconnect: true
     },
     identity: {
-        username: 'okatsu_arisa',
-        password: 'oauth:435ywt4yclvflikdudbe71bfkacign'
+        username: '',
+        password: ''
     },
-    channels: ['okatsu_arisa']
+    channels: ['']
 });
 
 client.connect();
