@@ -16,10 +16,10 @@ const client = new tmi.Client({
         reconnect: true
     },
     identity: {
-        username: '',
-        password: ''
+        username: process.env.TWITCH_USERNAME,
+        password: process.emv.TWITCH_OAUTH_TOKEN
     },
-    channels: ['']
+    channels: [process.env.TWITCH_USERNAME]
 });
 
 client.connect();
