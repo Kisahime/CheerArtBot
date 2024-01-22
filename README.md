@@ -28,5 +28,33 @@ Before installing CheerArtBot, make sure you have Node.js installed on your syst
 ## Installation
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Kisahime/CheerArtBot-DALL-E-3-Driven-Image-Generation-for-Twitch-Cheers.git
+   git clone https://github.com/Kisahime/CheerArtBot.git
    cd CheerArtBot
+2. **Run Install Script:**
+   - On Windows, run the provided batch file to install dependencies:
+     ```bash
+     install.bat
+
+## Configuration
+To configure CheerArtBot for your Twitch channel, follow these steps:
+- Create a .env file in the root directory of the project.
+- Add the following configurations to the .env file, replacing placeholders with your actual data:
+  ```bash
+  TWITCH_USERNAME=your_twitch_username
+  TWITCH_OAUTH_TOKEN=your_oauth_token
+  TWITCH_CHANNEL=your_twitch_channel
+  OPENAI_API_KEY=your_openai_api_key
+  ```
+  - TWITCH_USERNAME: Your Twitch bot's username.
+  - TWITCH_OAUTH_TOKEN: OAuth token for Twitch authentication. Generate one from Twitch Chat OAuth Password Generator.
+  - TWITCH_CHANNEL: Name of the Twitch channel where the bot will operate.
+  - OPENAI_API_KEY: Your OpenAI API key for accessing DALL-E-3.
+
+## Usage
+- To start CheerArtBot, run the following command in the terminal:
+  ```bash
+  node server.js
+  ```
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
