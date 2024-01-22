@@ -1,0 +1,18 @@
+{
+  "name": "twitch-chatbot-dalle3",
+  "version": "1.0.0",
+  "description": "A Twitch chat bot that uses OpenAI's DALL-E-3 to generate images based on cheer messages.",
+  "main": "server.js",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "dotenv": "^16.3.2",
+    "openai": "^4.25.0",
+    "tmi.js": "^1.8.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kisahime",
+  "license": "MIT",
+  "keywords": []
+}
